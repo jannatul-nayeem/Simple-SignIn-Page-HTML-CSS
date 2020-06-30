@@ -1,31 +1,33 @@
+/* style full body section */
 body{
     margin:0;
-    padding: 0;
     width: 100%;
+    font-family: sans-serif;
     background: url("pc.jpg")no-repeat;
     background-size: cover;
 }
+/* login form style */
 .login{
     border: 1px solid rgba(255,255,255,0.3);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding:100px 70px;
     position: absolute;
     top: 50%;
     left: 70%;
     transform: translateX(-50%) translateY(-50%);
 }
+/* signin header style */
 h1{
     color: #fff;
-    font-family: sans-serif;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
+/* style input field */
 input[type=text],input[type=password]{
     display: block;
     width:250px;
     height: 35px;
-    font-family: sans-serif;
     color: black;
     font-size: 15px;
     text-align: center;
@@ -35,26 +37,27 @@ input[type=text],input[type=password]{
     margin-bottom: 15px;
     
 }
+/* style submit button */
 input[type=button]{
-    width: 120px;
+    width: 125px;
     height: 35px;
-    text-align: center;
-    color: #fff;
+    margin-left: 62.5px;
     background-color:#339e69; 
-    margin:0 25%;
+    color: #fff;
+    text-align: center;
     border: 1px solid #339e69;
     border-radius: 30px;
     outline: none;
+    
     
 }
 input[type=button]:hover{
     cursor: pointer;
     background-color:#2ecc71;
-    transition: 0.5s;
 }
+/* style icon */
 .icon{
     position: absolute;
-   padding-top: 11px;
-    padding-left: 18px;
+    padding: 10px 20px;
     color: #339e69;
 }
